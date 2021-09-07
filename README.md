@@ -1,1 +1,1 @@
-https://pobedilda.github.io/rsschool-cv/
+https://pobedilda.github.io/rsschool-cv/cv
