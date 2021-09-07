@@ -2,9 +2,9 @@
 
 ### Contacts
 
-**E-mail:** playfog3@gmail.com
+- **E-mail:** playfog3@gmail.com
 
-**Telegram:** @Slayvik
+- **Telegram:** @Slayvik
 
 ### Brifly Information about me
 
