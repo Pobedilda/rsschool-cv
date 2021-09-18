@@ -1,0 +1,65 @@
+@mixin font-title {
+  font: {
+    family: 'Poppins', sans-serif;
+  }
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  color: #2d2f31;
+  @media screen and (max-width: 480px) {
+    background-color: white;
+  }
+}
+
+.author__title {
+  display: flex;
+  flex-direction: row;
+
+  .profile__info {
+    @include font-title;
+    margin-left: 160px;
+    h1 {
+      font-weight: 400;
+      font-size: 50px;
+
+      span {
+        display: block;
+        font-weight: 500;
+        font-size: 100px;
+      }
+    }
+    h2 {
+      display: inline;
+      font-family: 'Montserrat', sans-sefif;
+      font-weight: 500;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      padding: 5px 45px;
+      background-color: #ebebeb;
+    }
+
+    h3 {
+      @include font-title;
+      font-weight: 600;
+      font-size: 32px;
+      margin-top: 100px;
+    }
+
+    p {
+      @include font-title;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 6px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
